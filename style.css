@@ -1,7 +1,7 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
-#header {
+#firstblueheader {
     background-image: url("assets/design-assets/bgk-header.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@ html {
     height: 700px;   
 }
 
-.main {
+.firstbluemain {
     display:flex;
     margin-left: 300px;
     margin-right: 300px;
@@ -36,12 +36,12 @@ html {
     margin-top: 40px;
 }
 
-.logo {
+.firstlogo {
     display:flex;
     margin-top: 40px;
 }
 
-.logo p {
+.firstlogo p {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 40px;
@@ -49,29 +49,29 @@ html {
     color:aqua;
 }
 
-.logo img {
+.firstlogo img {
     margin-right: 20px;
     width: 70px;
 }
 
-.section h1 {
+.firstbluesection h1 {
     margin-top: 100px;
     margin-bottom: 30px;
     color: white;
 }
-.section p {
+.firstbluesection p {
     color: white;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.section {
+.firstbluesection {
     display: flex;
     margin-left: 500px;
     margin-right: 500px;
     text-align: center;
     flex-direction: column;
 }
-.section button {
+.button {
     display: block;
     margin-top: 50px;
     margin-left: auto;
@@ -80,7 +80,48 @@ html {
     color: aqua;
     border-color: aqua;
     padding: 10px;
-    font-size: 11px;
-    
-    
+    font-size: 11px;   
+}
+
+
+
+
+
+.firstwhiteheader {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.secondlogo {
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+}
+.firstwhitesection {
+    width: 600px;
+    margin-left: 0px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: right;
+    text-align: left;
+}
+
+
+
+
+
+#content {
+    background-image: url("assets/design-assets/bgk-middle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;   
+    width: 100%;
+}
+
+#video {
+    display: flex;
+    align-items: center;
 }
